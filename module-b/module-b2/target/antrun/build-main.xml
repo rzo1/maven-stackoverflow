@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy todir="/home/zowallar/IdeaProjects/issue-with-ant-plugin/module-b/module-b2/target/custom-copy-folder">
+      <fileset dir="/home/zowallar/IdeaProjects/issue-with-ant-plugin/module-b/module-b2/src/templates/active-by-default/" />
+    </copy>
+  </target>
+</project>
